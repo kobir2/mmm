@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimart.</title>
+
+    <style>
+
+        /* global css  */
+
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                text-decoration: none;
+                list-style: none;
+
+            }
+
+            body{
+                background: #cacaca;
+
+            }
+
+            table{
+                border: 0;
+                border-spacing: 0;
+            }
+
+            h1,h2,h3,h4,h5,h6{
+                font-family: 'Nunito Sans', sans-serif;
+                color: #000000;
+                margin-top: 0;
+            }
+
+            a{
+                color: #000000;
+            }
+            /* button  */
+
+            .btn{
+                background: #000000;
+                color: #fff;
+                padding: 10px 15px;
+                display: inline-block;
+                border-radius: 7px;
+                
+            }
+           
+           /* padding */
+
+             /* padding */
+             .email-section{
+                        padding:2.5em;
+                    }
+
+                    .email-section2{
+                        padding: 1.5rem;
+                    }
+            
+            /* body css */
+                    
+                /* header section start */
+                    .logo a{
+                        font-size: 34px;
+                    }
+
+                    .logo a:hover{
+                       font-weight: bold;
+                    }
+                /* header section end */
+
+                /* shop seection start  */
+
+                    .shop-btn{
+                        background: #f00;
+                    }
+
+                    .shop-btn:hover{
+                        background: #000;
+                    }
+                    
+                /* shop section end */
+            /* body css */
+
+        /* media queary */
+
+        @media only screen and (max-width: 600px) {
+
+            table[class="responsive-table"] {
+                    width: 100% !important;
+                }
+                table[class="responsive-table2"] {
+                    width: 100% !important;
+
+                }
+
+                td[class="two-column"]{
+                    display: block;
+                    width: 100%;
+                }
+
+
+            /* shop section */
+            
+            .shop-text{
+                padding: 10px 0;
+            }
+            .shop-b{
+                padding: 10px 0;
+            }
+        }
+            
+    </style>
+</head>
+<body>      
+
+    <!-- full width container  start -->
+
+    <table  cellpadding="0" cellspacing="0" width="100%" border="0" style="table-layout: fixed;max-width:100% !important;width: 100% !important;min-width: 100% !important;">
+        <tr>
+            <td align="center">
+                <!-- email body section start -->
+                    <table class="responsive-table"  cellpadding="0" cellspacing="0" width="600" style="background: #fff;" class="bg_white">
+                        <!-- header section start -->
+                        <tr>
+                            <td>
+                                <table  cellpadding="0" cellspacing="0" border="0" width="100%">
+                                    <tr>
+                                        <td class="email-section2 logo">
+                                            <a href="#">Minimart.</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <!-- header section end -->
+
+                        <!-- hero section start  -->
+
+                            <tr>
+                                <td>
+                                    <img src="./images/bg_1.jpg" alt="" width="100%" style="display: block;width: 100%;">
+                                </td>
+                            </tr>
+
+                        <!-- hero section end -->
+
+                        <!-- text section start  -->
+                            <tr>
+                                <td class="email-section">
+                                    <h2 style="font-size: 34px;font-weight: 500;line-height: 1.5;color: #3e3131;">Exclusives Offers For Selected Product Items</h2>
+                                    <h3 style="color: #ab9999;font-size: 24px;font-weight: 400;line-height: 1.5;">Amazing deals, updates, interesting news right in your inbox</h3>
+                                </td>
+                            </tr>
+                        <!-- text section  end -->
+
+                        <!-- shop section start  -->
+
+                            <tr>
+                                <td class="email-section"> 
+                                    <table border="0" cellpadding="0" cellspeacing="0" width="100%" style="border-bottom: 1px solid rgba(0,0,0,.05);">
+                                        <tr>
+                                            <td class="two-column" width="70%">
+                                               <table border="0" cellpadding="0" cellspeacing="0" width="100%"> 
+                                                    <tr>
+                                                        <td class="two-column" width="30%">
+                                                            <img src="./images/product-1.jpg" alt="" width="100%" style="display: block;width: 100%;">
+                                                        </td>
+                                                        <td class="two-column" width="70%" valign="middle" >
+                                                            <table border="0" cellpadding="0" cellspeacing="0" width="100%">
+                                                                <tr>
+                                                                    <td class=" email-section2 shop-text">
+                                                                        <h3 style="color: #313131;font-weight: 400;line-height: 1.5;">Young Woman Dress</h3>
+                                                                        <h3 style="margin: 10px 0;">S, M, L, XL</h3>
+                                                                        <p style="line-height: 1.5;">A small river named Duden flows by their place and supplies</p>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                               </table>
+                                            </td>
+
+                                            <td class="two-column" width="30%" valign="top">
+                                                <table width="100%" cellpadding="0" cellspeacing="0" border="0">
+                                                    <tr>
+                                                        <td class="email-section2 shop-b"> 
+                                                            <h4 style="color: #ff0000;">$120</h4>
+                                                            <p style="margin: 10px 0;">50% discount</p>
+                                                            <a href="#" class="btn shop-btn" > shop now</a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <table border="0" cellpadding="0" cellspeacing="0" width="100%" style="border-bottom: 1px solid rgba(0,0,0,.05);">
+                                        <tr>
+                                            <td class="two-column" width="70%">
+                                               <table border="0" cellpadding="0" cellspeacing="0" width="100%"> 
+                                                    <tr>
+                                                        <td class="two-column" width="30%">
+                                                            <img src="./images/product-2.jpg" alt="" width="100%" style="display: block;width: 100%;">
+                                                        </td>
+                                                        <td class="two-column" width="70%" valign="middle" >
+                                                            <table border="0" cellpadding="0" cellspeacing="0" width="100%">
+                                                                <tr>
+                                                                    <td class=" email-section2 shop-text">
+                                                                        <h3 style="color: #313131;font-weight: 400;line-height: 1.5;">Young Woman Dress</h3>
+                                                                        <h3 style="margin: 10px 0;">S, M, L, XL</h3>
+                                                                        <p style="line-height: 1.5;">A small river named Duden flows by their place and supplies</p>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                               </table>
+                                            </td>
+
+                                            <td class="two-column" width="30%" valign="top">
+                                                <table width="100%" cellpadding="0" cellspeacing="0" border="0">
+                                                    <tr>
+                                                        <td class="email-section2 shop-b"> 
+                                                            <h4 style="color: #ff0000;">$120</h4>
+                                                            <p style="margin: 10px 0;">50% discount</p>
+                                                            <a href="#" class="btn shop-btn" > shop now</a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <table border="0" cellpadding="0" cellspeacing="0" width="100%" style="border-bottom: 1px solid rgba(0,0,0,.05);">
+                                        <tr>
+                                            <td class="two-column" width="70%">
+                                               <table border="0" cellpadding="0" cellspeacing="0" width="100%"> 
+                                                    <tr>
+                                                        <td class="two-column" width="30%">
+                                                            <img src="./images/product-3.jpg" alt="" width="100%" style="display: block;width: 100%;">
+                                                        </td>
+                                                        <td class="two-column" width="70%" valign="middle" >
+                                                            <table border="0" cellpadding="0" cellspeacing="0" width="100%">
+                                                                <tr>
+                                                                    <td class=" email-section2 shop-text">
+                                                                        <h3 style="color: #313131;font-weight: 400;line-height: 1.5;">Young Woman Dress</h3>
+                                                                        <h3 style="margin: 10px 0;">S, M, L, XL</h3>
+                                                                        <p style="line-height: 1.5;">A small river named Duden flows by their place and supplies</p>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                               </table>
+                                            </td>
+
+                                            <td  width="33.3%" class="two-column" width="30%" valign="top">
+                                                <table width="100%" cellpadding="0" cellspeacing="0" border="0">
+                                                    <tr>
+                                                        <td class="email-section2 shop-b"> 
+                                                            <h4 style="color: #ff0000;">$120</h4>
+                                                            <p style="margin: 10px 0;">50% discount</p>
+                                                            <a href="#" class="btn shop-btn" > shop now</a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+
+                        <!-- shop section end  -->
+
+                        <!-- footer section start -->
+
+                            <tr>
+                                <td>
+                                    <table width="100%" cellpadding="0" cellspeacing="0" border="0" class="footer-top email-section" style="background: #f7fafa;">
+                                        <tr>
+                                            <td width="33.3%" class="two-column" style="text-align: left; padding-right: 15px;margin: 15px 0;">
+                                                <h3> About</h3>
+                                                <p style="margin: 20px 0;font-size: 18px; line-height: 1.8;font-weight: 400;">
+                                                   
+                                                    A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                                                </p>
+                                            </td>
+
+
+                                            <td width="33.3%" class="two-column" style="text-align: left; padding-right: 15px;margin: 15px 0;" >
+                                                <h3> Contact</h3>
+                                                <p style="margin: 20px 0;font-size:18px; line-height: 1.8;font-weight: 400;">
+                                                    Contact Info
+                                                    203 Fake St. Mountain View, San Francisco, California, USA
+                                                </p>
+                                                <p>+2 392 3929 210</p>
+                                            </td>
+
+                                            <td  width="33.3%"class="two-column" valign="top" style="text-align: left;margin: 15px 0;">
+                                                <h3> Usefull Links</h3>
+                                                <ul style="margin: 20px 0;">
+                                                    <li style="margin: 10px 0;font-size: 20px;">
+                                                        <a href="#"> Home </a>
+                                                    </li>
+                                                    <li style="margin: 10px 0;font-size: 20px;">
+                                                        <a href="#"> Account </a>
+                                                    </li>
+                                                    <li  style="margin: 10px 0;font-size: 20px;">
+                                                        <a href="#"> Wishlist </a>
+                                                    </li>
+
+                                                    <li  style="margin: 10px 0;font-size: 20px;">
+                                                        <a href="#"> Oder</a>
+                                                    </li>
+                                                </ul>
+                                                
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <table width="100%" class="footer-b" cellpadding="0" cellspeacing="0" border="0" style="background: #fff;">
+                                        <tr>
+                                            <td class="email-section" style="text-align: center;">
+                                                <p>No longer want to receive these email? You can <a href="#" style="color: #f00;">Unsubscribe here</a></p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            
+                        <!-- footer section end -->
+
+                    </table>
+                <!-- email body section end -->
+            </td>
+        </tr>
+    </table>
+
+    <!-- full width container end -->
+
+    
+</body>
+</html>
